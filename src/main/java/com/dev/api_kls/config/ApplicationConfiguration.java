@@ -1,6 +1,5 @@
 package com.dev.api_kls.config;
 
-
 import com.dev.api_kls.repository.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
