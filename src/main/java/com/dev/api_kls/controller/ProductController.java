@@ -34,7 +34,7 @@ public class ProductController {
         if (product.isEmpty())
             return new ResponseEntity<>("Não foi possível encontrar esse produto!", HttpStatus.NOT_FOUND);
 
-        return new ResponseEntity<>( product.get(), HttpStatus.OK);
+        return new ResponseEntity<>(product.get(), HttpStatus.OK);
     }
 
 
@@ -57,6 +57,5 @@ public class ProductController {
 
         return new ResponseEntity<>(service.delete(id), HttpStatus.OK);
     }
-
 
 }
